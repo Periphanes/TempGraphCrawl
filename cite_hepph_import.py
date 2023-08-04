@@ -42,8 +42,8 @@ for line in tqdm(lines[1:]):
 
     found = False
 
-    possible_reps = ["https://arxiv.org/abs/hep-ph/", "https://arxiv.org/abs/hep-th/", 
-                     "https://arxiv.org/abs/hep-lat/"]
+    possible_reps = ["https://export.arxiv.org/abs/hep-ph/", "https://export.arxiv.org/abs/hep-th/", 
+                     "https://export.arxiv.org/abs/hep-lat/"]
 
     for possible_rep in possible_reps:
             
